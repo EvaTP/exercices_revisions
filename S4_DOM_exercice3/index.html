@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Compteur de clics</title>
+	<script src="script.js" defer></script>
+	<style>
+		@font-face {
+		font-family: 'Computerfont';
+		src: 
+			url('fontkit/computerfont-webfont.woff2') format('woff2'),
+         	url('fontkit/computerfont-webfont.woff') format('woff'),
+         	url('fontkit/Computerfont.ttf') format('truetype');
+		}
+		body{
+			background-color: bisque;
+		}
+		#main{
+			margin: 0, auto;
+		}
+		h1{
+			font-size: 50px;
+			margin-left: 20px;
+			font-family: 'Computerfont', sans-serif;
+		}
+		button{
+			width: 150px;
+			height : 50px;
+			margin :15px 0 20px 30px;
+			padding : 8px;
+			background-color:cornflowerblue;
+			font-size: 20px;
+			border : 1 px solid blueviolet;
+			border-radius: 50px;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<section id="main">
+		<h1>⏱️ Compteur de clics</h1>
+		<button id="counter">0 clics !</button>
+		<br>
+		<button id="reset">Reset</button>
+	</section>
+</body>
+</html>
